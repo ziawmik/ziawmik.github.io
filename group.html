@@ -1,90 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой университет </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #DCDCDC;
-        }
-        .carousel-item {
-            height: 280px;
-        }
-        .carousel-item img {
-            height: 300px;
-	    border-radius: 20px;
-            object-fit: cover;
-	    width: 30%;
-	    margin: auto;
-        }
-        #container {
-            margin: 20px;
-        }
-        #header {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        #navigation, #sidebar, #content {
-            margin-top: 20px;
-        }
-        #sidebar {
-            margin-bottom: 20px;
-        }
-        #clear {
-            clear: both;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя группа - Иванов Иван</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-<!-- Панель навигации -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Лабораторная №5</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #232F3E;">
+    <a class="navbar-brand" href="index.html">Лабораторная №5</a>
     <div class="collapse navbar-collapse" id="navbarNav">
-         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Главная</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="university.html">Университет</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="group.html">Группа</a>
-            </li>
-
-        </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="group.html">Моя группа</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="university.html">Мой университет</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-            </li>
-        </ul>
-    </div>
-</nav>
+  <div class="container mt-5">
+    <h2>Моя группа</h2>
+    <p>Моя группа состоит из 11 человек.</p>
+     </div>
 
-<div id="container">
-    <div id="header">
-        <h2>Волков Дмитрий</h2>
-        <img src="аватар.jpg" width="200" height="200" alt="Волков Дмитрий" class="img-fluid">
-    </div>
+  <footer class="footer">
+    <p>Дата создания страницы: 18.11.2024</p>
+  </footer>
 
-       <div id="content">
-        <h2><center>В моей группе 11 человек!</center></h2>
-    </div>
-
-    <div id="clear"></div>
-
-
-</div>
- <!-- Дата создания страницы -->
-    <h2>Дата создания страницы: 18.11.2024</h2>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
